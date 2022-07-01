@@ -27,7 +27,8 @@ function linkAction(){
 navLink.forEach(n=>n.addEventListener('click',linkAction))
 
 /*==================== ACCORDION SKILLS ====================*/
-
+const skillsContent=document.getElementsByClassName("skillc__content")
+    skillsHeader=document.querySelectorAll('skills__header')
 
 /*==================== QUALIFICATION TABS ====================*/
 
