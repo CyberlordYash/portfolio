@@ -228,7 +228,7 @@ color: var(--first-color);
   box-shadow: 0 -1px 4px rgba(0, 0, 0, .85);
     border-radius: 0.6rem 0.6rem 0 0;
     transition: 0.3sec;
-    background-image: linear-gradient(#B983FF,white,white);
+    
 }
 
 /* show menu */
@@ -533,7 +533,10 @@ border-radius: 50%;
   transform: translate(6px,-7px);
 }
 /*==================== SERVICES ====================*/
-
+.services__conatainer{
+  gap: 1.5rem;
+  grid-template-columns: repeat(2,1fr);
+}
 
 /* Active Modal */
 
