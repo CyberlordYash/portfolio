@@ -322,7 +322,7 @@ color: var(--first-color);
 /*==================== BUTTONS ====================*/
 .button{
   display: inline-block;
-  background-color: var(--first-color);
+  background-image: linear-gradient(to right,#4700D8,#9900F0);
   color: #fff;
   padding: 1rem;
   border-radius: .6rem;
@@ -476,7 +476,7 @@ cursor: pointer;
   
   border-radius: 0 0 0.75rem 0.75rem;
   height: 60px;
-  background-color: #4700D8;
+  background-image: linear-gradient(to right,#4700D8,#4700D8,#9900F0,#F900BF);
 }
 
 /*==================== QUALIFICATION ====================*/
