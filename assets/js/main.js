@@ -65,7 +65,7 @@ const skillsContent=document.getElementsByClassName("skills__content")
 
 
 /*==================== DARK LIGHT THEME ====================*/ 
-const themeButton = document.getElementById('theme-button')
+const themeButton = document.getElementById("theme-button")
 const darkTheme = 'dark-theme'
 const iconTheme = 'uil-sun'
 
@@ -92,4 +92,7 @@ themeButton.addEventListener('click', () => {
     // We save the theme and the current icon that the user chose
     localStorage.setItem('selected-theme', getCurrentTheme())
     localStorage.setItem('selected-icon', getCurrentIcon())
+})
+themeButton.addEventListener('click', () => {
+    console.log('clicked');
 })
