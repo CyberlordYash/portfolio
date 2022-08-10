@@ -868,9 +868,10 @@ img {
   list-style: none;
   width: 20px;
   height: 20px;
-  background: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(to right, #4700d8, #9900f0);
   animation: animate 20s linear infinite;
   bottom: -300px;
+  opacity: 0.4;
 }
 .box-area li:nth-child(1) {
   left: 86%;
